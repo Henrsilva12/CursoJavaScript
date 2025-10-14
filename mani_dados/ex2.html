@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+    <h1>Curso JavaScript!</h1>
+    <p>Manipulação de Dados</p>
+    <h2>Exercício 2</h2>
+
+    <script>
+        /*
+        var nome = window.prompt("Digite seu nome:");
+        window.alert(`Seu nome é ${nome}`); //Aqui exibe como pop-up
+       // document.write(`Seu nome é ${nome}`); //Aqui exibe na página
+        document.write(`Seu nome é <strong>${nome}</strong> e tem <strong>${nome.length}</strong> letras.<br/> <br/>`); //Conta quantas letras tem e exibe na tela, aqui tem o negrito tbm.
+        document.write(`Frase de teste, para testar a quebra de linha.<br/><br/>`); //Aqui quebra a linha
+        document.write(`Seu nome em maiúsculo é <strong>${nome.toUpperCase()}</strong>.<br/><br/>`); //Aqui exibe o nome em maiúsculo
+        document.write(`Seu nome em minúsculo é <strong>${nome.toLowerCase()}</strong>.<br/><br/>`); //Aqui exibe o nome em minúsculo
+        */
+
+        /*Conversão de números*/
+
+        var n1 = window.prompt("Digite um número:");
+        window.alert(`Seu número é ${n1}`);
+        document.write(`O número digitado foi <strong>${n1}</strong>.<br/><br/>`); //Aqui exibe na tela
+        document.write(`O número <strong>${n1}</strong> usando o comando toFixed(n), fica assim: <strong>${Number(n1).toFixed(2)}</strong>.<br/><br/>`);
+        document.write(`O número <strong>${n1}</strong> usando o comando toFixed(n).replace('.',',') fica assim: <strong>${Number(n1).toFixed(2).replace('.',',')}</strong>.<br/><br/>`); //Aqui vai fazer a troca do . por ,
+        document.write(`O número <strong>${n1}</strong> usando o comando toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) fica assim: <strong>${Number(n1).toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}</strong>.<br/><br/>`); //Aqui vai formatar o número para moeda BRL (Real Brasileiro)
+    </script>
+    
+</body>
+</html>

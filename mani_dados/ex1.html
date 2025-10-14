@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JavaScript</title>
+</head>
+    <h1>Curso JavaScript!</h1>
+    <p>Manipulação de Dados</p>
+    <script>
+        /* 1ª Maneira de fazer
+        var n1 = window.prompt("Digite um número:");
+        var n2 = window.prompt("Digite outro número:");
+        var soma = parseFloat(n1) + parseFloat(n2);
+        window.alert("A soma dos números é: " + soma);
+        */
+
+        /* 2ª Maneira de fazer
+        var n1 = Number(window.prompt("Digite o primeiro número:"));
+        var n2 = Number(window.prompt("Digite o segundo número:"));
+        var soma = n1 + n2;
+        window.alert("A soma dos números " + n1 + " + " + n2 + " = " + soma);
+        */
+
+        /* Conversão de número para String
+        var n1 = Number(window.prompt("Digite o primeiro número:"));
+        var n2 = Number(window.prompt("Digite o segundo número:"));
+        var soma = n1 + n2;
+        //window.alert("A soma dos números " + n1.toString() + " + " + n2.toString() + " = " + soma.toString());
+        /*Usando template string para o alert
+        window.alert(`A soma dos números ${n1} + ${n2} = ${soma}`);
+        */
+
+        /* Quantas letraas tem a String */
+        var n1 = window.prompt("Digite uma palavra:");
+        window.alert(`A palavra ${n1} tem ${n1.length} letras.`);
+        window.alert(`A palavra ${n1} em maiúsculo fica ${n1.toUpperCase()}.`);
+        window.alert(`A palavra ${n1} em minúsculo fica ${n1.toLowerCase()}.`);
+    </script>
+</body>
+</html>
